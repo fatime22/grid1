@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.border{
+    padding-top: 3%;
+      
+}
+.container{
+  margin: 0 auto;
+  width: 60%;
+  height: 650px;
+  background-color: white;
+  display: grid;
+  gap: 3px;
+  
+  
+  grid-template-columns: 2fr 1fr 2fr 2fr 1fr 2fr;
+  grid-template-areas: 
+                      'bir iki iki üç üç dörd'
+                      'beş iki iki üç üç altı'
+                      'yeddi səkkiz doqquz üç üç on'
+                      'onbir onbir onbir üç üç oniki';
+}
+.container > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.items1 {
+  grid-area: bir; 
+  background-color: blue;
+}
+.items2 {
+  grid-area: iki;
+  background-color: magenta;
+}
+.items3 {
+  grid-area: üç;
+  background-color: yellow;
+}
+.items4 {
+  grid-area: dörd;
+  background-color: orangered;
+}
+.items5 {
+  grid-area: beş;
+  background-color: red;
+}
+.items6 {
+  grid-area: altı;
+  background-color: palevioletred;
+}
+.items7 {
+  grid-area: yeddi;
+  background-color: aqua;
+}
+.items8 {
+  grid-area: səkkiz;
+  background-color: blueviolet;
+}
+.items9 {
+  grid-area: doqquz;
+  background-color: gray;
+}
+.items10 {
+  grid-area: on;
+  background-color: red;
+}
+.items11 {
+  grid-area: onbir;
+  background-color: green;
+}
+.items12 {
+  grid-area: oniki;
+  background-color: aqua;
+}
